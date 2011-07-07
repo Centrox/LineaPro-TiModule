@@ -1,0 +1,5 @@
+// this is a generated file - DO NOT EDIT
+
+LINEA_OTHER_LDFLAGS=$(inherited) -framework ExternalAccessory
+
+OTHER_LDFLAGS=$(inherited) $(LINEA_OTHER_LDFLAGS) 

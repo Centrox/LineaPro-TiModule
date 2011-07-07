@@ -26,7 +26,23 @@
 --------------
  Instructions
 --------------
-COMING SOON!
+1) INSTALLING MODULE SO TITANIUM KNOWS ABOUT IT
+	In terminal type the following from this directory:
+		cp linea-iphone-0.1.zip /Library/Application\ Support/Titanium/
+	
+2) You should now be able to modify the tiapp.xml in the demo app provided.
+Be sure to add your own personal settings and deploy to an iOS device.
+Attach your LineaPRO device and scan away! :) Simple, huh?
+
+Sorry for the short instructions.  Feel free to contact me via Twitter @iampnelson.
+
+Cheers!
+
+
+-------
+ ABOUT
+-------
+A custom Titanium Module written in OBJ-C for iOS devices that have a LineaPRO attached.
 
 
 -------------
