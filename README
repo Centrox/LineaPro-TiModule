@@ -2,8 +2,10 @@
 +                    Appcelerator Titanium Module for the LineaPro                    +
 +=====================================================================================+
 
+*****NOTE*****(July 14, 2011)
+I'm preparing to push up the mag stripe stuff. Are you ready? :)
 
-*****NOTE*****(July 7, 2011)
+*****UPDATE*****(July 7, 2011)
 THERE WILL BE AN ENTIRE LIST OF EVENTS/USE CASES/ETC.  I AM CURRENTLY WORKING ON THE DOCUMENTATION.
 
 
@@ -31,16 +33,22 @@ THERE WILL BE AN ENTIRE LIST OF EVENTS/USE CASES/ETC.  I AM CURRENTLY WORKING ON
  Instructions
 --------------
 1) INSTALLING MODULE SO TITANIUM KNOWS ABOUT IT
-	In terminal type the following from this directory:
+	- In terminal type the following from the LineaPro-TiModule directory:
 		cp linea-iphone-0.1.zip /Library/Application\ Support/Titanium/
+	- Titanium can now access the LineaPro module.
+	- In your tiapp.xml add the following to your modules section:
+		<modules>
+			<module version="0.1">linea</module>
+		</modules>
 	
-2) You should now be able to modify the tiapp.xml in the demo app provided.
-Be sure to add your own personal settings and deploy to an iOS device.
-Attach your LineaPRO device and scan away! :) Simple, huh?
+NOTE: 
+	- Be sure to add your own personal settings before you deploy to an iOS device.
+	- Attach your LineaPRO and scan away! :) Simple, huh?
 
 Sorry for the short instructions.  Feel free to contact me via Twitter @iampnelson.
 
 Cheers!
+Paul
 
 
 -------
