@@ -1,0 +1,17 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.25
+description: LineaPRO-TiModule
+author: Paul Nelson
+license: MIT
+copyright: Copyright (c) 2011 by iampnelson.com
+
+
+# these should not be edited
+name: linea
+moduleid: linea
+guid: c68ad7df-1e28-40d2-bc53-b940962b0def
+platform: iphone
+minsdk: 1.6.2

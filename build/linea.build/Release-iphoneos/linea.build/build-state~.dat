@@ -1,0 +1,450 @@
+Tlinea
+v3
+r1
+cCheck dependencies
+cProcessPCH /var/folders/99/99a57c0LG-05sqbYGCNxaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Linea_Prefix-gtuvmllsuungckfhxieggnscddsl/Linea_Prefix.pch.gch Linea_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/99/99a57c0LG-05sqbYGCNxaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Linea_Prefix-fgphuhlemljzmthdlcaruwjlpkgd/Linea_Prefix.pch.gch Linea_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/linea.build/Release-iphoneos/linea.build/Objects-normal/armv6/LineaModuleAssets.o /Users/iampnelson/Titanium/TiModules/linea/Classes/LineaModuleAssets.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/linea.build/Release-iphoneos/linea.build/Objects-normal/armv6/LineaModule.o /Users/iampnelson/Titanium/TiModules/linea/Classes/LineaModule.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/linea.build/Release-iphoneos/linea.build/Objects-normal/armv7/LineaModule.o /Users/iampnelson/Titanium/TiModules/linea/Classes/LineaModule.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/linea.build/Release-iphoneos/linea.build/Objects-normal/armv7/LineaModuleAssets.o /Users/iampnelson/Titanium/TiModules/linea/Classes/LineaModuleAssets.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLibtool /Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/Objects-normal/armv6/libLinea.a normal armv6
+cLibtool /Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/Objects-normal/armv7/libLinea.a normal armv7
+cCreateUniversalBinary /Users/iampnelson/Titanium/TiModules/linea/build/Release-iphoneos/libLinea.a normal "armv6 armv7"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004D9A119B0000000000000110
+t1301942683
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
+c000000004D93DFEB0000000000000AB3
+t1301536747
+s2739
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D93E1FD00000000003E22F0
+t1301537277
+s4072176
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D93E1E60000000000001466
+t1301537254
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D99FA7C0000000000000AA1
+t1301936764
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/AvailabilityMacros.h
+c000000004D4F74C20000000000007A5E
+t1297052866
+s31326
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/pthread.h
+c000000004D4F6E910000000000003BF6
+t1297051281
+s15350
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/lib/gcc/arm-apple-darwin10/4.2.1/include/stdbool.h
+c000000004D09AC6C0000000000000644
+t1292479596
+s1604
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/lib/gcc/arm-apple-darwin10/4.2.1/include/stddef.h
+c000000004D09AC6C0000000000003197
+t1292479596
+s12695
+
+N/Library/Application Support/Titanium/mobilesdk/osx/1.6.2/iphone/include/Bridge.h
+c000000004CEBF6DC0000000000000268
+t1290532572
+s616
+i"TiProxy.h"
+
+N/Library/Application Support/Titanium/mobilesdk/osx/1.6.2/iphone/include/KrollCallback.h
+c000000004CEBF6D80000000000000466
+t1290532568
+s1126
+i<Foundation/Foundation.h>
+i"TiCore.h"
+i"KrollContext.h"
+
+N/Library/Application Support/Titanium/mobilesdk/osx/1.6.2/iphone/include/KrollContext.h
+c000000004CD987880000000000000D82
+t1289324424
+s3458
+i<Foundation/Foundation.h>
+i"TiCore.h"
+i"TiBase.h"
+i"TiContextRefPrivate.h"
+
+N/Library/Application Support/Titanium/mobilesdk/osx/1.6.2/iphone/include/KrollObject.h
+c000000004CD987880000000000000714
+t1289324424
+s1812
+i<Foundation/Foundation.h>
+i"TiCore.h"
+i"TiBase.h"
+
+N/Library/Application Support/Titanium/mobilesdk/osx/1.6.2/iphone/include/TiBase.h
+c000000004D5219A60000000000002ACB
+t1297226150
+s10955
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"defines.h"
+i"TiThreading.h"
+i"TiPublicAPI.h"
+
+N/Library/Application Support/Titanium/mobilesdk/osx/1.6.2/iphone/include/TiColor.h
+c000000004CD9878800000000000002E6
+t1289324424
+s742
+i<UIKit/UIKit.h>
+i"TiProxy.h"
+
+N/Library/Application Support/Titanium/mobilesdk/osx/1.6.2/iphone/include/TiCore/Ti.h
+c000000004CD98788000000000000071C
+t1289324424
+s1820
+i<TiCore/TiBase.h>
+i<TiCore/TiContextRef.h>
+i<TiCore/TiStringRef.h>
+i<TiCore/TiObjectRef.h>
+i<TiCore/TiValueRef.h>
+
+N/Library/Application Support/Titanium/mobilesdk/osx/1.6.2/iphone/include/TiCore/TiBase.h
+c000000004CD987880000000000001A03
+t1289324424
+s6659
+i<stdbool.h>
+
+N/Library/Application Support/Titanium/mobilesdk/osx/1.6.2/iphone/include/TiCore/TiContextRef.h
+c000000004CD9878800000000000014D8
+t1289324424
+s5336
+i<TiCore/TiObjectRef.h>
+i<TiCore/TiValueRef.h>
+i<TiCore/WebKitAvailability.h>
+i<stdbool.h>
+
+N/Library/Application Support/Titanium/mobilesdk/osx/1.6.2/iphone/include/TiCore/TiContextRefPrivate.h
+c000000004CD987880000000000000860
+t1289324424
+s2144
+i<TiCore/TiObjectRef.h>
+i<TiCore/TiValueRef.h>
+i<TiCore/WebKitAvailability.h>
+i<stdbool.h>
+
+N/Library/Application Support/Titanium/mobilesdk/osx/1.6.2/iphone/include/TiCore/TiCore.h
+c000000004CD98788000000000000069B
+t1289324424
+s1691
+i<TiCore/Ti.h>
+i<TiCore/TiStringRefCF.h>
+
+N/Library/Application Support/Titanium/mobilesdk/osx/1.6.2/iphone/include/TiCore/TiObjectRef.h
+c000000004CD98788000000000000945D
+t1289324424
+s37981
+i<TiCore/TiBase.h>
+i<TiCore/TiValueRef.h>
+i<TiCore/WebKitAvailability.h>
+i<stdbool.h>
+i<stddef.h>
+
+N/Library/Application Support/Titanium/mobilesdk/osx/1.6.2/iphone/include/TiCore/TiStringRef.h
+c000000004CD98788000000000000168A
+t1289324424
+s5770
+i<TiCore/TiValueRef.h>
+i<stdbool.h>
+i<stddef.h>
+
+N/Library/Application Support/Titanium/mobilesdk/osx/1.6.2/iphone/include/TiCore/TiStringRefCF.h
+c000000004CD987880000000000000A3B
+t1289324424
+s2619
+i"TiBase.h"
+i<CoreFoundation/CoreFoundation.h>
+
+N/Library/Application Support/Titanium/mobilesdk/osx/1.6.2/iphone/include/TiCore/TiValueRef.h
+c000000004CD987880000000000002AE2
+t1289324424
+s10978
+i<TiCore/TiBase.h>
+i<stdbool.h>
+
+N/Library/Application Support/Titanium/mobilesdk/osx/1.6.2/iphone/include/TiCore/WebKitAvailability.h
+c000000004CD987880000000000006BD6
+t1289324424
+s27606
+i<AvailabilityMacros.h>
+
+N/Library/Application Support/Titanium/mobilesdk/osx/1.6.2/iphone/include/TiDimension.h
+c000000004D5219A6000000000000119C
+t1297226150
+s4508
+i"TiBase.h"
+
+N/Library/Application Support/Titanium/mobilesdk/osx/1.6.2/iphone/include/TiEvaluator.h
+c000000004CEBF6DC0000000000000346
+t1290532572
+s838
+i<Foundation/Foundation.h>
+i"KrollContext.h"
+
+N/Library/Application Support/Titanium/mobilesdk/osx/1.6.2/iphone/include/TiFile.h
+c000000004CEBF6DC0000000000000368
+t1290532572
+s872
+i"TiProxy.h"
+
+N/Library/Application Support/Titanium/mobilesdk/osx/1.6.2/iphone/include/TiHost.h
+c000000004CDC434A00000000000004A6
+t1289503562
+s1190
+i"TiProxy.h"
+i"Bridge.h"
+i"TiEvaluator.h"
+i"TiStylesheet.h"
+
+N/Library/Application Support/Titanium/mobilesdk/osx/1.6.2/iphone/include/TiModule.h
+c000000004D080A560000000000000409
+t1292372566
+s1033
+i"TiUtils.h"
+i"TiEvaluator.h"
+
+N/Library/Application Support/Titanium/mobilesdk/osx/1.6.2/iphone/include/TiProxy.h
+c000000004CDC434A0000000000001233
+t1289503562
+s4659
+i"TiBase.h"
+i"TiEvaluator.h"
+i"KrollCallback.h"
+i"KrollObject.h"
+i<pthread.h>
+
+N/Library/Application Support/Titanium/mobilesdk/osx/1.6.2/iphone/include/TiPublicAPI.h
+c000000004CEBF6D80000000000000A62
+t1290532568
+s2658
+i<Foundation/Foundation.h>
+
+N/Library/Application Support/Titanium/mobilesdk/osx/1.6.2/iphone/include/TiStylesheet.h
+c000000004D5219A6000000000000027F
+t1297226150
+s639
+i"TiBase.h"
+
+N/Library/Application Support/Titanium/mobilesdk/osx/1.6.2/iphone/include/TiThreading.h
+c000000004CEBF6D800000000000009CE
+t1290532568
+s2510
+i<Foundation/Foundation.h>
+
+N/Library/Application Support/Titanium/mobilesdk/osx/1.6.2/iphone/include/TiUtils.h
+c000000004D080A560000000000001523
+t1292372566
+s5411
+i"TiColor.h"
+i"TiDimension.h"
+i"WebFont.h"
+i"TiFile.h"
+
+N/Library/Application Support/Titanium/mobilesdk/osx/1.6.2/iphone/include/WebFont.h
+c000000004CD9878800000000000003C2
+t1289324424
+s962
+i<UIKit/UIKit.h>
+
+N/Library/Application Support/Titanium/mobilesdk/osx/1.6.2/iphone/include/defines.h
+c000000004CEBF6DC000000000000087F
+t1290532572
+s2175
+
+N/Users/iampnelson/Titanium/TiModules/linea/Classes/LineaModule.h
+c000000004E25D33700000000000001B8
+t1311101751
+s440
+i"TiModule.h"
+i"LineaSDK.h"
+
+N/Users/iampnelson/Titanium/TiModules/linea/Classes/LineaModule.m
+c000000004E25D34F0000000000000AFD
+t1311101775
+s2813
+i"LineaModule.h"
+i"TiBase.h"
+i"TiHost.h"
+i"TiUtils.h"
+
+N/Users/iampnelson/Titanium/TiModules/linea/Classes/LineaModuleAssets.h
+c000000004E25CAAA0000000000000099
+t1311099562
+s153
+
+N/Users/iampnelson/Titanium/TiModules/linea/Classes/LineaModuleAssets.m
+c000000004E25CAAA00000000000000FA
+t1311099562
+s250
+i"LineaModuleAssets.h"
+
+N/Users/iampnelson/Titanium/TiModules/linea/Linea_Prefix.pch
+c000000004E25CAAA000000000000003E
+t1311099562
+s62
+i<Foundation/Foundation.h>
+
+N/Users/iampnelson/Titanium/TiModules/linea/build/Release-iphoneos/libLinea.a
+t2
+s0
+
+N/Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/Objects-normal/armv6/Linea.LinkFileList
+c000000004E25D3650000000000000100
+t1311101797
+s256
+
+N/Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/Objects-normal/armv6/LineaModule.o
+t2
+s0
+
+N/Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/Objects-normal/armv6/LineaModuleAssets.o
+t2
+s0
+
+N/Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/Objects-normal/armv6/libLinea.a
+t2
+s0
+
+N/Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/Objects-normal/armv7/Linea.LinkFileList
+c000000004E25D3650000000000000100
+t1311101797
+s256
+
+N/Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/Objects-normal/armv7/LineaModule.o
+t2
+s0
+
+N/Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/Objects-normal/armv7/LineaModuleAssets.o
+t2
+s0
+
+N/Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/Objects-normal/armv7/libLinea.a
+t2
+s0
+
+N/Users/iampnelson/Titanium/TiModules/linea/linea.xcodeproj/LineaSDK.h
+c000000004CF84F18000000000000B988
+t1291341592
+s47496
+
+N/Users/iampnelson/Titanium/TiModules/linea/linea.xcodeproj/libLineaSDK.a
+c000000004CF84F18000000000009CB94
+t1291341592
+s641940
+
+N/var/folders/99/99a57c0LG-05sqbYGCNxaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Linea_Prefix-fgphuhlemljzmthdlcaruwjlpkgd/Linea_Prefix.pch.gch
+t1311100431
+s7215880
+
+N/var/folders/99/99a57c0LG-05sqbYGCNxaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Linea_Prefix-gtuvmllsuungckfhxieggnscddsl/Linea_Prefix.pch.gch
+t1311100431
+s6753032
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies41b733e50ad6b341^6d1b5ee50ad6b341^---0#1#0#--18"Check dependencies
+
+CCompileC build/linea.build/Release-iphoneos/linea.build/Objects-normal/armv6/LineaModule.o /Users/iampnelson/Titanium/TiModules/linea/Classes/LineaModule.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s332794597.379611
+e332794597.582574
+r1
+xCompileC
+xbuild/linea.build/Release-iphoneos/linea.build/Objects-normal/armv6/LineaModule.o
+x/Users/iampnelson/Titanium/TiModules/linea/Classes/LineaModule.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/iampnelson/Titanium/TiModules/linea/Classes/LineaModule.m596a61e50ad6b341^4c3395e50ad6b341^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/iampnelson/Titanium/TiModules/linea/Classes/LineaModule.m0000000000000000^2441"CompileC build/linea.build/Release-iphoneos/linea.build/Objects-normal/armv6/LineaModule.o Classes/LineaModule.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/iampnelson/Titanium/TiModules/linea    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/Applications/SQLAnywhere12/System/bin32:/Applications/SQLAnywhere12/System/bin64:/Applications/SQLAnywhere12/System/bin32:/Applications/SQLAnywhere12/System/bin64:/Users/iampnelson/.rvm/gems/ruby-1.9.2-p0/bin:/Users/iampnelson/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/iampnelson/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/iampnelson/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/Linea-generated-files.hmap -I/Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/Linea-own-target-headers.hmap -I/Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/Linea-all-target-headers.hmap -iquote /Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/Linea-project-headers.hmap -I/Users/iampnelson/Titanium/TiModules/linea/build/Release-iphoneos/include "-I/Library/Application Support/Titanium/mobilesdk/osx/1.6.2/iphone/include" "-I/Library/Application Support/Titanium/mobilesdk/osx/1.6.2/iphone/include/TiCore" -I/Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/DerivedSources/armv6 -I/Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/DerivedSources -F/Users/iampnelson/Titanium/TiModules/linea/build/Release-iphoneos -include /var/folders/99/99a57c0LG-05sqbYGCNxaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Linea_Prefix-gtuvmllsuungckfhxieggnscddsl/Linea_Prefix.pch -c /Users/iampnelson/Titanium/TiModules/linea/Classes/LineaModule.m -o /Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/Objects-normal/armv6/LineaModule.o
+
+CCompileC build/linea.build/Release-iphoneos/linea.build/Objects-normal/armv6/LineaModuleAssets.o /Users/iampnelson/Titanium/TiModules/linea/Classes/LineaModuleAssets.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s332794597.379607
+e332794597.445339
+r1
+xCompileC
+xbuild/linea.build/Release-iphoneos/linea.build/Objects-normal/armv6/LineaModuleAssets.o
+x/Users/iampnelson/Titanium/TiModules/linea/Classes/LineaModuleAssets.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/iampnelson/Titanium/TiModules/linea/Classes/LineaModuleAssets.mec6b61e50ad6b341^240d72e50ad6b341^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/iampnelson/Titanium/TiModules/linea/Classes/LineaModuleAssets.m0000000000000000^2465"CompileC build/linea.build/Release-iphoneos/linea.build/Objects-normal/armv6/LineaModuleAssets.o Classes/LineaModuleAssets.m normal armv6 objective-c com.apple.compilers.gcc.4_2    cd /Users/iampnelson/Titanium/TiModules/linea    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/Applications/SQLAnywhere12/System/bin32:/Applications/SQLAnywhere12/System/bin64:/Applications/SQLAnywhere12/System/bin32:/Applications/SQLAnywhere12/System/bin64:/Users/iampnelson/.rvm/gems/ruby-1.9.2-p0/bin:/Users/iampnelson/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/iampnelson/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/iampnelson/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/Linea-generated-files.hmap -I/Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/Linea-own-target-headers.hmap -I/Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/Linea-all-target-headers.hmap -iquote /Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/Linea-project-headers.hmap -I/Users/iampnelson/Titanium/TiModules/linea/build/Release-iphoneos/include "-I/Library/Application Support/Titanium/mobilesdk/osx/1.6.2/iphone/include" "-I/Library/Application Support/Titanium/mobilesdk/osx/1.6.2/iphone/include/TiCore" -I/Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/DerivedSources/armv6 -I/Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/DerivedSources -F/Users/iampnelson/Titanium/TiModules/linea/build/Release-iphoneos -include /var/folders/99/99a57c0LG-05sqbYGCNxaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Linea_Prefix-gtuvmllsuungckfhxieggnscddsl/Linea_Prefix.pch -c /Users/iampnelson/Titanium/TiModules/linea/Classes/LineaModuleAssets.m -o /Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/Objects-normal/armv6/LineaModuleAssets.o
+
+CCompileC build/linea.build/Release-iphoneos/linea.build/Objects-normal/armv7/LineaModule.o /Users/iampnelson/Titanium/TiModules/linea/Classes/LineaModule.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332794597.446532
+e332794597.660490
+r1
+xCompileC
+xbuild/linea.build/Release-iphoneos/linea.build/Objects-normal/armv7/LineaModule.o
+x/Users/iampnelson/Titanium/TiModules/linea/Classes/LineaModule.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/iampnelson/Titanium/TiModules/linea/Classes/LineaModule.m477572e50ad6b341^df15a9e50ad6b341^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/iampnelson/Titanium/TiModules/linea/Classes/LineaModule.m0000000000000000^2441"CompileC build/linea.build/Release-iphoneos/linea.build/Objects-normal/armv7/LineaModule.o Classes/LineaModule.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/iampnelson/Titanium/TiModules/linea    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/Applications/SQLAnywhere12/System/bin32:/Applications/SQLAnywhere12/System/bin64:/Applications/SQLAnywhere12/System/bin32:/Applications/SQLAnywhere12/System/bin64:/Users/iampnelson/.rvm/gems/ruby-1.9.2-p0/bin:/Users/iampnelson/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/iampnelson/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/iampnelson/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/Linea-generated-files.hmap -I/Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/Linea-own-target-headers.hmap -I/Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/Linea-all-target-headers.hmap -iquote /Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/Linea-project-headers.hmap -I/Users/iampnelson/Titanium/TiModules/linea/build/Release-iphoneos/include "-I/Library/Application Support/Titanium/mobilesdk/osx/1.6.2/iphone/include" "-I/Library/Application Support/Titanium/mobilesdk/osx/1.6.2/iphone/include/TiCore" -I/Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/DerivedSources/armv7 -I/Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/DerivedSources -F/Users/iampnelson/Titanium/TiModules/linea/build/Release-iphoneos -include /var/folders/99/99a57c0LG-05sqbYGCNxaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Linea_Prefix-fgphuhlemljzmthdlcaruwjlpkgd/Linea_Prefix.pch -c /Users/iampnelson/Titanium/TiModules/linea/Classes/LineaModule.m -o /Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/Objects-normal/armv7/LineaModule.o
+
+CCompileC build/linea.build/Release-iphoneos/linea.build/Objects-normal/armv7/LineaModuleAssets.o /Users/iampnelson/Titanium/TiModules/linea/Classes/LineaModuleAssets.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s332794597.584919
+e332794597.640300
+r1
+xCompileC
+xbuild/linea.build/Release-iphoneos/linea.build/Objects-normal/armv7/LineaModuleAssets.o
+x/Users/iampnelson/Titanium/TiModules/linea/Classes/LineaModuleAssets.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/iampnelson/Titanium/TiModules/linea/Classes/LineaModuleAssets.m04e695e50ad6b341^96e9a3e50ad6b341^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/iampnelson/Titanium/TiModules/linea/Classes/LineaModuleAssets.m0000000000000000^2465"CompileC build/linea.build/Release-iphoneos/linea.build/Objects-normal/armv7/LineaModuleAssets.o Classes/LineaModuleAssets.m normal armv7 objective-c com.apple.compilers.gcc.4_2    cd /Users/iampnelson/Titanium/TiModules/linea    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/Applications/SQLAnywhere12/System/bin32:/Applications/SQLAnywhere12/System/bin64:/Applications/SQLAnywhere12/System/bin32:/Applications/SQLAnywhere12/System/bin64:/Users/iampnelson/.rvm/gems/ruby-1.9.2-p0/bin:/Users/iampnelson/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/iampnelson/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/iampnelson/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/Linea-generated-files.hmap -I/Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/Linea-own-target-headers.hmap -I/Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/Linea-all-target-headers.hmap -iquote /Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/Linea-project-headers.hmap -I/Users/iampnelson/Titanium/TiModules/linea/build/Release-iphoneos/include "-I/Library/Application Support/Titanium/mobilesdk/osx/1.6.2/iphone/include" "-I/Library/Application Support/Titanium/mobilesdk/osx/1.6.2/iphone/include/TiCore" -I/Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/DerivedSources/armv7 -I/Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/DerivedSources -F/Users/iampnelson/Titanium/TiModules/linea/build/Release-iphoneos -include /var/folders/99/99a57c0LG-05sqbYGCNxaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Linea_Prefix-fgphuhlemljzmthdlcaruwjlpkgd/Linea_Prefix.pch -c /Users/iampnelson/Titanium/TiModules/linea/Classes/LineaModuleAssets.m -o /Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/Objects-normal/armv7/LineaModuleAssets.o
+
+CCreateUniversalBinary /Users/iampnelson/Titanium/TiModules/linea/build/Release-iphoneos/libLinea.a normal "armv6 armv7"
+s332794597.675876
+e332794597.700120
+r1
+xCreateUniversalBinary
+x/Users/iampnelson/Titanium/TiModules/linea/build/Release-iphoneos/libLinea.a
+xnormal
+xarmv6 armv7
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Create universal binary /Users/iampnelson/Titanium/TiModules/linea/build/Release-iphoneos/libLinea.a4e27ade50ad6b341^9547b3e50ad6b341^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/iampnelson/Titanium/TiModules/linea/build/Release-iphoneos/libLinea.a0000204dfb01f041^1018"CreateUniversalBinary build/Release-iphoneos/libLinea.a normal "armv6 armv7"    cd /Users/iampnelson/Titanium/TiModules/linea    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/Applications/SQLAnywhere12/System/bin32:/Applications/SQLAnywhere12/System/bin64:/Applications/SQLAnywhere12/System/bin32:/Applications/SQLAnywhere12/System/bin64:/Users/iampnelson/.rvm/gems/ruby-1.9.2-p0/bin:/Users/iampnelson/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/iampnelson/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/iampnelson/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static /Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/Objects-normal/armv6/libLinea.a /Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/Objects-normal/armv7/libLinea.a -o /Users/iampnelson/Titanium/TiModules/linea/build/Release-iphoneos/libLinea.a
+
+CLibtool /Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/Objects-normal/armv6/libLinea.a normal armv6
+s332794597.641481
+e332794597.653680
+r1
+xLibtool
+x/Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/Objects-normal/armv6/libLinea.a
+xnormal
+xarmv6
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Libtool build/linea.build/Release-iphoneos/linea.build/Objects-normal/armv6/libLinea.a normal armv64359a4e50ad6b341^815fa7e50ad6b341^---0#0#0#--1285"Libtool build/linea.build/Release-iphoneos/linea.build/Objects-normal/armv6/libLinea.a normal armv6    cd /Users/iampnelson/Titanium/TiModules/linea    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/Applications/SQLAnywhere12/System/bin32:/Applications/SQLAnywhere12/System/bin64:/Applications/SQLAnywhere12/System/bin32:/Applications/SQLAnywhere12/System/bin64:/Users/iampnelson/.rvm/gems/ruby-1.9.2-p0/bin:/Users/iampnelson/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/iampnelson/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/iampnelson/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv6 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/iampnelson/Titanium/TiModules/linea/build/Release-iphoneos -L/Users/iampnelson/Titanium/TiModules/linea/linea.xcodeproj -filelist /Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/Objects-normal/armv6/Linea.LinkFileList -framework Foundation -lLineaSDK -o /Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/Objects-normal/armv6/libLinea.a
+
+CLibtool /Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/Objects-normal/armv7/libLinea.a normal armv7
+s332794597.661700
+e332794597.674381
+r1
+xLibtool
+x/Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/Objects-normal/armv7/libLinea.a
+xnormal
+xarmv7
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Libtool build/linea.build/Release-iphoneos/linea.build/Objects-normal/armv7/libLinea.a normal armv75985a9e50ad6b341^a9a2ace50ad6b341^---0#0#0#--1285"Libtool build/linea.build/Release-iphoneos/linea.build/Objects-normal/armv7/libLinea.a normal armv7    cd /Users/iampnelson/Titanium/TiModules/linea    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/Applications/SQLAnywhere12/System/bin32:/Applications/SQLAnywhere12/System/bin64:/Applications/SQLAnywhere12/System/bin32:/Applications/SQLAnywhere12/System/bin64:/Users/iampnelson/.rvm/gems/ruby-1.9.2-p0/bin:/Users/iampnelson/.rvm/gems/ruby-1.9.2-p0@global/bin:/Users/iampnelson/.rvm/rubies/ruby-1.9.2-p0/bin:/Users/iampnelson/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv7 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -L/Users/iampnelson/Titanium/TiModules/linea/build/Release-iphoneos -L/Users/iampnelson/Titanium/TiModules/linea/linea.xcodeproj -filelist /Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/Objects-normal/armv7/Linea.LinkFileList -framework Foundation -lLineaSDK -o /Users/iampnelson/Titanium/TiModules/linea/build/linea.build/Release-iphoneos/linea.build/Objects-normal/armv7/libLinea.a
+
+CProcessPCH /var/folders/99/99a57c0LG-05sqbYGCNxaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Linea_Prefix-fgphuhlemljzmthdlcaruwjlpkgd/Linea_Prefix.pch.gch Linea_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/99/99a57c0LG-05sqbYGCNxaE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Linea_Prefix-gtuvmllsuungckfhxieggnscddsl/Linea_Prefix.pch.gch Linea_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
