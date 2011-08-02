@@ -97,7 +97,8 @@ int beep1[]={2730,250};
 			NSLog(@"[LINEA] Linea connectionState=CONNECTING/DISCONNECTED");
 			break;
 		case CONN_CONNECTED:
-			[linea msStartScan];
+			[linea startScan];
+            [linea msStartScan];
 			NSLog(@"[LINEA] Linea connectionState=CONNECTED");
             [linea setScanBeep:TRUE volume:10 beepData:beep1 length:sizeof(beep1)];
 			break;
@@ -110,8 +111,9 @@ int beep1[]={2730,250};
 }
 
 -(void)magneticCardData:(NSString *)track1 track2:(NSString *)track2 track3:(NSString *)track3 {
-    NSLog(@"[LINEA] Linea magneticCardRawData");
-    [self fireEvent:@"magneticCardRawData" withObject:track1 withSource:track1];
+    NSLog(@"[LINEA] Linea magneticCardData");
+    NSString *tracks = [NSString stringWithFormat:@"%@%@%@", track1, track2, track3];
+    [self fireEvent:@"magneticCardData" withObject:tracks withSource:tracks];
 }
 
 @end
