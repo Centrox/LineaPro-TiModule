@@ -1,7 +1,6 @@
-Appcelerator Titanium LineaPRO Module for iOS 
-==========================================
-
-This is a LineaPRO module for iOS developed by Paul Nelson.
+About:
+===
+Appcelerator Titanium Module for the LineaPRO iOS Device
 
 
 Basic usage:
@@ -48,22 +47,6 @@ Basic usage:
 	tabGroup.addTab(tab1);  
 	tabGroup.addTab(tab2);  
 	tabGroup.open();
-
-
-TODO
-===
-
-Only functionality currently working is the barcode scan.  The beep sound is currently set via the OBJ-C and the magstripe reader needs to be implemented. 
-
-
-HOW TO HELP
-==========
-
-Here's how you can help me make this full featured.
-
-- Write API documentation
-- Fork it and add other missing APIs
-- Port to Android
 
 
 LICENSE
