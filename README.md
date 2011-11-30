@@ -1,7 +1,18 @@
+Update(s):
+===
+	iOS 5 breaks info.plist on OBJ-C side.
+	Known Resolution: 
+		Add the following to info.plist and re-compile module.
+		- com.datecs.linea.pro.msrc
+		- com.datecs.linea.pro.bar
+	This will fix the module so it works with iOS 5.
+	
+	COMING SOON:
+	- iOS 5 bug fix for info.plist
+
 About:
 ===
 Appcelerator Titanium Module for the LineaPRO iOS Device
-
 
 Basic usage:
 ===
