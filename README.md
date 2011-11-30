@@ -1,6 +1,15 @@
 Update(s):
 ===
-	November 30, 2011
+	November 30, 2011 3:15PMPDT
+	Add the following to info.plist in your app root.
+	
+	<key>UISupportedExternalAccessoryProtocols</key>
+	<array>
+		<string>com.datecs.linea.pro.msr</string>
+		<string>com.datecs.linea.pro.bar</string>
+	</array>
+	
+	November 30, 2011 9:00AMPDT
 		iOS 5 breaks info.plist on OBJ-C side.
 		Known Resolution: 
 			Add the following to info.plist and re-compile module.
