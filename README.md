@@ -1,5 +1,18 @@
 Update(s):
 ===
+	December 20, 2011 8:35AMPDT
+	Added first SampleApp
+	- info.plist is included in the applications root (iOS 5 BUG FIX)
+	- Barcode support
+		- Scan a barcode and it will appear in the tableView.
+		
+	COMING SOON:
+	- Module update to handle settings/options of the LineaPRO.
+	- Magstripe reader BUG FIX for iOS 5.
+	- Updated SampleApp to handle Magstripe
+	- Updated SampleApp to adjust the LineaPRO settings.
+	
+
 	November 30, 2011 3:15PMPDT
 	Add the following to info.plist in your app root.
 	
@@ -16,9 +29,6 @@ Update(s):
 			- com.datecs.linea.pro.msrc
 			- com.datecs.linea.pro.bar
 		This will fix the module so it works with iOS 5.
-	
-		COMING SOON:
-		- iOS 5 bug fix for info.plist
 
 About:
 ===
