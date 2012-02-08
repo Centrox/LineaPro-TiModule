@@ -74,9 +74,16 @@
 	Ti.API.debug("LineaPro isConnected => " + lineaproti.isConnected);
 	isConnectedLabel.text = lineaproti.isConnected;
 
+	// Listens for the LineaPRO connection state
 	isConnectedButton.addEventListener('click', function() {
 		Ti.API.debug("LineaPro isConnected => " + lineaproti.isConnected);
 		isConnectedLabel.text = lineaproti.isConnected;
+	});
+	
+	// Listens for barcode scan
+	lineaproti.addEventListener('barcodeData', function(e) {
+		Ti.API.debug('Following barcode was scanned =>' + e.source);
+		tableView.insertRowAfter(0, Ti.UI.createTableViewRow({title:e.source}));
 	});
 	
 })();
