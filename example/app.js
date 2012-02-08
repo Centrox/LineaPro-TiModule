@@ -20,6 +20,10 @@
 
 (function() {
 	
+	var _ = {
+		LineaSet : false
+	};
+	
 	var win 		= Ti.UI.createWindow({
 			backgroundColor	: '#FFF'
 		}),
@@ -66,6 +70,30 @@
 	win.add(title);
 	win.add(tableView);
 	win.open();
+	
+	var _barcodeData = function(e) {
+		Ti.API.debug('Following barcode was scanned =>' + e.source);
+		tableView.insertRowAfter(0, Ti.UI.createTableViewRow({title:'_barcodeData => ' + e.source}));
+	};
+	
+	var _connectionState = function(e) {
+		Ti.API.debug('LineaPRO ConnectionState =>' + e.source);
+		tableView.insertRowAfter(0, Ti.UI.createTableViewRow({title:'_connectionState => ' + e.source}));
+		if (e.source === '2') {
+			if (!_.LineaSet) {
+				// Listens for barcode scan
+				lineaproti.addEventListener('barcodeData', _barcodeData);
+				_.LineaSet = true;
+			}
+		} else {
+			if (_.LineaSet) {
+				// Remove Listens for barcode scan
+				lineaproti.removeEventListener('barcodeData', _barcodeData);
+				_.LineaSet = false;
+			}
+		}
+		Ti.API.debug('_.LineaSet=> ' + _.LineaSet);
+	};
 
 	// Require LineaProTi Module
 	var lineaproti = require('LineaProTi');
@@ -80,10 +108,6 @@
 		isConnectedLabel.text = lineaproti.isConnected;
 	});
 	
-	// Listens for barcode scan
-	lineaproti.addEventListener('barcodeData', function(e) {
-		Ti.API.debug('Following barcode was scanned =>' + e.source);
-		tableView.insertRowAfter(0, Ti.UI.createTableViewRow({title:e.source}));
-	});
-	
+	lineaproti.addEventListener('connectionState', _connectionState);
+
 })();
