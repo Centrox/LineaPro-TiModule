@@ -16,7 +16,6 @@
 // Requirements:
 //	- iOS 5 SDK
 //	- Titanium SDK 1.8.1
-//  - LineaPRO SDK iOS_2011-11-07_v1.29 RC
 
 (function() {
 	
