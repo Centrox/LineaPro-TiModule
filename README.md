@@ -17,6 +17,13 @@ Basic Usage:
 
 Update(s):
 ===
+	June 19, 2012
+	NEW VERSION
+	- iOS 5.1 Support
+ 	- Ti SDK 2+ Support
+	
+	~~~
+	
 	February 8, 2012 8:47AMPDT
 	NEW VERSION RELEASE
 	- iOS 5 Support
