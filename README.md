@@ -4,16 +4,7 @@ About:
 
 Basic Usage:
 ===
-	See example/app.js :)
-	
-	NOTE:
-	Since iOS 5 we need to add the following to your apps info.plist
-	
-	<key>UISupportedExternalAccessoryProtocols</key>
-		<array>
-			<string>com.datecs.linea.pro.msr</string>
-			<string>com.datecs.linea.pro.bar</string>
-		</array>
+	See re-created Lineaprotimodule for compatibility with iOS 5+ and Ti SDK 2+.
 
 Update(s):
 ===
