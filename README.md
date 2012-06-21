@@ -6,7 +6,7 @@ Basic Usage:
 ===
 	June 21, 2012: 
 	-  See LineaPROTiModule Demo App 2 and lineaprotimodule for compatibility with iOS 5+ and Ti SDK 2+.
-	-  LineaPro-TiModule works with iOS 4.3 and Ti SDK 1.8.2 and older versions. 
+	-  lineaproti-iphone-0.1.zip and example works with iOS 4.3 and Ti SDK 1.8.2 and older versions. 
 
 Update(s):
 ===
