@@ -26,8 +26,13 @@ Update(s):
 ===
 	July 24, 2012
 	- Removing Ti SDK 1.8+ Support
-	- Focusing on Ti SDK 2.1+ compatibility
-	
+	- Ti SDK 2.1.0.GA+ compatibility
+		- Released June 29, 2012
+		- We can now include info.plist information in our tiapp.xml, which is the hotness.
+	- Linea SDK iOS_2012-06-15_v1.53 Support
+		- Released July 2, 2012
+	- iOS 5.1 compatibility
+
 	~~~
 
 	June 19, 2012
