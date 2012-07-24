@@ -4,14 +4,29 @@ About:
 
 Basic Usage:
 ===
-	July 24, 2012
-	- Coming soon...
+	var win = Ti.UI.createWindow({
+			backgroundColor	: 'white',
+			title			: 'LineaPROTiModule Demo App',
+			barColor		: 'black'
+		}),
+		barcode = Ti.UI.createLabel();
+
+	win.add(barcode);
+
+	win.open({modal:true,animated:false});
+
+	var lineaprotimodule = require('lineaprotimodule');
+	Ti.API.info("module is => " + lineaprotimodule);
+
+	lineaprotimodule.addEventListener('barcodeData', function(e) {     
+	    barcode.text = e.source;
+	});
 
 Update(s):
 ===
 	July 24, 2012
-	Removing Ti SDK 1.8+ Support
-	Focusing on Ti SDK 2.1+ compatibility
+	- Removing Ti SDK 1.8+ Support
+	- Focusing on Ti SDK 2.1+ compatibility
 	
 	~~~
 
