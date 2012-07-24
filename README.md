@@ -4,12 +4,17 @@ About:
 
 Basic Usage:
 ===
-	June 21, 2012: 
-	-  See LineaPROTiModule Demo App 2 and lineaprotimodule for compatibility with iOS 5+ and Ti SDK 2+.
-	-  lineaproti-iphone-0.1.zip and example works with iOS 4.3 and Ti SDK 1.8.2 and older versions. 
+	July 24, 2012
+	- Coming soon...
 
 Update(s):
 ===
+	July 24, 2012
+	Removing Ti SDK 1.8+ Support
+	Focusing on Ti SDK 2.1+ compatibility
+	
+	~~~
+
 	June 19, 2012
 	NEW VERSION
 	- iOS 5.1 Support
@@ -17,7 +22,7 @@ Update(s):
 	
 	~~~
 	
-	February 8, 2012 8:47AMPDT
+	February 8, 2012
 	NEW VERSION RELEASE
 	- iOS 5 Support
 	- Designed for Ti SDK 1.8+
@@ -26,7 +31,7 @@ Update(s):
 	
 	~~~
 
-	December 20, 2011 8:35AMPDT
+	December 20, 2011
 	Added first SampleApp
 	- info.plist is included in the applications root (iOS 5 BUG FIX)
 	- Barcode support
@@ -40,7 +45,7 @@ Update(s):
 	
 	~~~
 	
-	November 30, 2011 3:15PMPDT
+	November 30, 2011
 	Add the following to info.plist in your app root.
 	
 	<key>UISupportedExternalAccessoryProtocols</key>
@@ -51,7 +56,7 @@ Update(s):
 	
 	~~~
 	
-	November 30, 2011 9:00AMPDT
+	November 30, 2011
 		iOS 5 breaks info.plist on OBJ-C side.
 		Known Resolution: 
 			Add the following to info.plist and re-compile module.
