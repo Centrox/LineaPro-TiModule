@@ -4,19 +4,19 @@ About:
 
 Basic Usage:
 ===
-	See example/app.js :)
-	
-	NOTE:
-	Since iOS 5 we need to add the following to your apps info.plist
-	
-	<key>UISupportedExternalAccessoryProtocols</key>
-		<array>
-			<string>com.datecs.linea.pro.msr</string>
-			<string>com.datecs.linea.pro.bar</string>
-		</array>
+	June 21, 2012: 
+	-  See LineaPROTiModule Demo App 2 and lineaprotimodule for compatibility with iOS 5+ and Ti SDK 2+.
+	-  lineaproti-iphone-0.1.zip and example works with iOS 4.3 and Ti SDK 1.8.2 and older versions. 
 
 Update(s):
 ===
+	June 19, 2012
+	NEW VERSION
+	- iOS 5.1 Support
+ 	- Ti SDK 2+ Support
+	
+	~~~
+	
 	February 8, 2012 8:47AMPDT
 	NEW VERSION RELEASE
 	- iOS 5 Support
