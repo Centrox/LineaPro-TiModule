@@ -4,34 +4,47 @@ About:
 
 Basic Usage:
 ===
-	var win = Ti.UI.createWindow({
-			backgroundColor	: 'white',
-			title			: 'LineaPROTiModule Demo App',
-			barColor		: 'black'
-		}),
-		barcode = Ti.UI.createLabel();
-
-	win.add(barcode);
-
-	win.open({modal:true,animated:false});
-
-	var lineaprotimodule = require('lineaprotimodule');
-	Ti.API.info("module is => " + lineaprotimodule);
-
-	lineaprotimodule.addEventListener('barcodeData', function(e) {     
-	    barcode.text = e.source;
-	});
+	Please see app.js and don't forget to read the IMPORTANT note below.
+	
+	IMPORTANT**
+			 ** The following must be added to your applications info.plist
+	
+	<key>UISupportedExternalAccessoryProtocols</key>
+	<array>
+	    <string>com.datecs.linea.pro.msr</string>
+	    <string>com.datecs.linea.pro.bar</string>
+	</array>
 
 Update(s):
 ===
+	July 25, 2012
+	NEW VERSION => lineaprotimodule-iphone-2.2012.07.24.zip
+	
+	Compatibility:
+		- iOS 5.1+
+		- Ti SDK 2.1+
+		- Linea SDK iOS_2012-06-15_v1.53
+	
+	The following methods are now available!
+	- checkConnectionStatus
+		- Returns Linea's connection state
+	- checkBatteryLevel
+		- Returns Linea's battery level in percentage and volts
+	- scannedBarcode
+		- Returns barcode
+		- Returngs barcodeType
+
+	~~~
+
 	July 24, 2012
+	COMING IN NEXT RELEASE
 	- Removing Ti SDK 1.8+ Support
 	- Ti SDK 2.1.0.GA+ compatibility
 		- Released June 29, 2012
 		- We can now include info.plist information in our tiapp.xml, which is the hotness.
 	- Linea SDK iOS_2012-06-15_v1.53 Support
 		- Released July 2, 2012
-	- iOS 5.1 compatibility
+	- Ability to check Linea's connection state
 
 	~~~
 
