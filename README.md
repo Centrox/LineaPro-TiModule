@@ -32,7 +32,7 @@ Update(s):
 		- Returns Linea's battery level in percentage and volts
 	- scannedBarcode
 		- Returns barcode
-		- Returngs barcodeType
+		- Returns barcodeType
 
 	~~~
 
