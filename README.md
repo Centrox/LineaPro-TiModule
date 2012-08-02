@@ -17,6 +17,11 @@ Basic Usage:
 
 Update(s):
 ===
+	August 2, 2012
+	COMING IN NEXT RELEASE
+	- Magstripe support
+	Notes: Many people have been requesting the magstripe functionality, I am adding it now.
+
 	July 25, 2012
 	NEW VERSION => lineaprotimodule-iphone-2.2012.07.24.zip
 	
